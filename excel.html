@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Review- DELAUNAY Valentin</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="panel">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="excel.html">Excel</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="main-form" name="mainform">
+            <h3>Enter your numbers separated by space: </h3>
+            <input type="text" id="numbers">
+            <br>
+            <div class="main_form_pres">
+                <input type="radio" id="AutoSum" name="result" value="AutoSum" required checked>
+                <label for="AutoSum">AutoSum</label>
+                <br>
+                <input type="radio" id="Average" name="result" value="Average" required>
+                <label for="Average">Average</label>
+                <br>
+                <input type="radio" id="Max" name="result" value="Max" required>
+                <label for="Max">Maximum</label>
+                <br>
+                <input type="radio" id="Min" name="result" value="Min" required>
+                <label for="Min">Minimum</label>
+            </div>
+            <br><br>
+            <div class="btn">
+                <input type="submit" id="calculate" onclick='window.location.reload(false)' value="Calculate">
+            </div>
+        </form>
+        <div id="output">
+            
+        </div>
+    </main>
+    <footer>
+        <p> 
+            ILAC & EFREI Partnership- HTML, CSS, and JavaScript Main Lab-work - DELAUNAY Valentin
+        </p> 
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
