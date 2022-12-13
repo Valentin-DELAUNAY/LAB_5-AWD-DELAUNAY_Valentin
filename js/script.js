@@ -91,4 +91,5 @@ function myExcelFuns(){
     else{
         document.getElementById("output").innerHTML="You need to enter valid number(s).";
     }
+    return false;
 }
